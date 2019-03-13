@@ -1,0 +1,60 @@
+.header{
+    margin-top: 25px;
+    display: table;
+    width: 100%;
+    height: fit-content;
+}
+
+.left{
+    float: left;
+    display: table-cell;
+}
+
+p, i, .vertical-divider{
+
+    float: right;
+    display: table-cell;
+}
+
+h1{
+    font-size: 46px;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    outline-style:none;
+    box-shadow:none;
+    border-color:transparent;
+}
+
+h1:hover{
+    cursor: pointer;
+}
+
+p{
+    margin-right: 24px;
+    outline: none;
+    outline-style:none;
+    box-shadow:none;
+    border-color:transparent;
+}
+
+i{
+    font-size: 1.7rem;
+    vertical-align: middle;
+    margin-right: 1.5%;
+    margin-top: 15px;
+}
+
+.vertical-divider{
+    width: 1px;
+    background-color: black;
+    height: 30px;
+    margin-top: 14px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+p:hover, i:hover{
+    cursor: pointer;
+    color: #8a8a8a;
+}

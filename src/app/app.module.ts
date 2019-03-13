@@ -8,6 +8,7 @@ import { JohannaComponent } from './johanna/johanna.component';
 import { AgendaComponent } from './agenda/agenda.component';
 import { SteunComponent } from './steun/steun.component';
 import { ContactComponent } from './contact/contact.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ContactComponent } from './contact/contact.component';
     JohannaComponent,
     AgendaComponent,
     SteunComponent,
-    ContactComponent
+    ContactComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
