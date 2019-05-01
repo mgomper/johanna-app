@@ -90,8 +90,8 @@
 
 @media only screen and (min-width: 935px) {
     .start{
-        min-height: 83vh;
-        max-height: 83vh;
+        min-height: 81vh;
+        max-height: 81vh;
         min-width: 100% !important;
         max-width: 100% !important;
         background-image: url("../../assets/2.JPG");
