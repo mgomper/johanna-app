@@ -9,6 +9,12 @@ import { AgendaComponent } from './agenda/agenda.component';
 import { SteunComponent } from './steun/steun.component';
 import { ContactComponent } from './contact/contact.component';
 import { HeaderComponent } from './header/header.component';
+import { NguCarouselModule } from '@ngu/carousel';
+
+
+
+declare var $: any;
+
 
 @NgModule({
   declarations: [
@@ -21,8 +27,10 @@ import { HeaderComponent } from './header/header.component';
     HeaderComponent
   ],
   imports: [
+    NguCarouselModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

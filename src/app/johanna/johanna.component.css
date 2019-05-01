@@ -1,0 +1,215 @@
+/* PHONE */
+
+@media only screen and (max-width: 751px) {
+    .container, .a-container {
+        margin-left: 8vw;
+        margin-right: 8vw;
+        padding-bottom: 5%;
+    }
+}
+
+/* TABLET */
+
+@media only screen and (max-width: 1100px) and (min-width: 752px) {
+    .container, .a-container {
+        margin-left: 9vw;
+        margin-right: 9vw;
+        padding-bottom: 29%;
+    }
+}
+
+/* DESKTOP */
+
+@media only screen and (min-width: 1101px) {
+    .container, .a-container {
+        margin-left: 15vw;
+        margin-right: 15vw;
+        padding-bottom: 23%;
+    }
+}
+
+@media only screen and (max-width: 934px) {
+    .start {
+        min-height: 80vh;
+        max-height: 80vh;
+        min-width: 100vw !important;
+        background-image: url("../../assets/1.JPG");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    @media screen and (min-height: 631px) {
+        .fa-angle-down, .fa-chevron-down {
+            font-size: 2.9rem;
+            margin-top: 8px;
+            margin-left: 50%;
+            transform: translateX(-50%);
+            cursor: pointer;
+            color: #333333
+        }
+    }
+    @media screen and (max-height: 630px) {
+        .fa-angle-down, .fa-chevron-down {
+            font-size: 2.9rem;
+            margin-top: -4px;
+            margin-left: 50%;
+            transform: translateX(-50%);
+            cursor: pointer;
+            color: #333333
+        }
+    }
+    h1 {
+        margin-bottom: 14px;
+    }
+    img {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    #title-1 {
+        margin-top: 26px;
+    }
+    #p-1 {
+        margin-bottom: 45px;
+    }
+    .motto {
+        color: #ffffff;
+        position: absolute;
+        font-size: 45px;
+        margin: 0;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .a-container {
+        padding-top: 15vh;
+        padding-left: 5px;
+    }
+    a {
+        color: #ffffff;
+        text-decoration-line: none;
+        font-size: 22px;
+    }
+    a:hover {
+        padding-bottom: 5px;
+        border-bottom: 1px solid #ffffff;
+        cursor: pointer;
+    }
+    .spacing {
+        height: 24px;
+    }
+
+    #lightbox{
+        top:0;
+        position: fixed;
+        width: 0;
+        height: 100vh;
+        background-color: rgba(26, 25, 25, 0.836);
+        z-index: 999;
+    }
+    #lightbox img {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+@media only screen and (min-width: 935px) {
+    #lightbox{
+        top:0;
+        position: fixed;
+        width: 0;
+        height: 100vh;
+        background-color: rgba(26, 25, 25, 0.836);
+        z-index: 999;
+    }
+    #lightbox img {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        max-width: 65vw;
+        max-height: 65vh;
+    }
+    .start {
+        min-height: 83vh;
+        max-height: 83vh;
+        min-width: 100% !important;
+        max-width: 100% !important;
+        background-image: url("../../assets/1.JPG");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .fa-angle-down, .fa-chevron-down {
+        font-size: 2.9rem;
+        margin-top: 8px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        cursor: pointer;
+        color: #333333
+    }
+    h1 {
+        margin-bottom: 14px;
+    }
+    .content-block img {
+        float: right;
+        width: 40%;
+        max-width: 600px;
+        margin-top: 5px;
+    }
+    .image-row img {
+        width: 18.4%;
+        margin-left: 0.8%;
+        margin-right: 0.8%;
+        margin-top: 20px;
+        float: left;
+        cursor: pointer;
+    }
+    p {
+        width: 50%;
+    }
+
+    #p-1 {
+        margin-bottom: 30px;
+    }
+    #block-2 {
+        margin-bottom: 50px;
+    }
+    .content-block {
+        height: max-content;
+    }
+    .motto {
+        color: #ffffff;
+        position: absolute;
+        font-size: 45px;
+        margin: 0;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%)
+    }
+    .a-container {
+        padding-top: 15vh;
+        padding-left: 5px;
+    }
+    a {
+        color: #ffffff;
+        text-decoration-line: none;
+        font-size: 26px;
+    }
+    a:hover {
+        padding-bottom: 5px;
+        border-bottom: 1px solid #ffffff;
+        cursor: pointer;
+    }
+    .spacing {
+        height: 24px;
+    }
+}

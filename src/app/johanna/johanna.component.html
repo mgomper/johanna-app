@@ -1,3 +1,114 @@
-<p>
-  johanna works!
-</p>
+<div id="lightbox">
+  <img id="lightbox-image">
+</div>
+<div class="start">
+  <div class="a-container">
+    <a (click)="scrollToAlgemeen()">Algemeen</a> <br>
+    <div class="spacing"></div>
+    <a (click)="scrollToGeschiedenis()">Geschiedenis</a> <br>
+    <div class="spacing"></div>
+    <a (click)="scrollToDetails()">Details</a> <br>
+    <div class="spacing"></div>
+    <a (click)="scrollToFotos()">Foto's</a> <br>
+  </div>
+</div>
+<i class="fas fa-angle-down" (click)="scrollToContent()"></i>
+
+<div class="container">
+  <div class="content" style="margin-bottom: 50px;">
+    <h1 id="title-1">Algemeen</h1>
+    <div class="content-block" id="block-1">
+      <p id="p-1">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pretium in lacus
+        ullamcorper interdum. Etiam malesuada, erat vitae cursus interdum, lacus urna tempus nisl, ac rutrum
+        lacus ipsum
+        sed velit. Quisque ac placerat lectus, eget pharetra mi. Nunc sit amet urna consectetur, fermentum nibh
+        in,
+        faucibus lacus. Ut facilisis euismod neque. Curabitur felis lectus, pellentesque eget finibus vitae,
+        laoreet nec
+        magna. Sed placerat turpis vitae molestie scelerisque. Fusce cursus arcu a ipsum iaculis, eu dictum
+        ipsum
+        malesuada. Ut sollicitudin luctus sem a sagittis. Cras in leo sed leo placerat euismod.
+        <br><br>
+        Vestibulum id nisi viverra, mattis diam venenatis, vulputate lectus. Nunc eleifend sem bibendum,
+        ullamcorper
+        neque vulputate, cursus dolor. Pellentesque a turpis aliquam, pharetra purus a, dictum mi. Nunc eleifend
+        sem bibendum, ullamcorper
+        neque vulputate, cursus dolor. Pellentesque a turpis aliquam, pharetra purus a, dictum min.</p>
+    </div>
+    <h1 id="title-2">Geschiedenis</h1>
+    <div class="content-block" id="block-2">
+      <img src="../../assets/3.jpg">
+      <p id="p-2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pretium in lacus
+        ullamcorper interdum. Etiam malesuada, erat vitae cursus interdum, lacus urna tempus nisl, ac rutrum
+        lacus ipsum
+        sed velit. Quisque ac placerat lectus, eget pharetra mi. Nunc sit amet urna consectetur, fermentum nibh
+        in,
+        faucibus lacus. Ut facilisis euismod neque. Curabitur felis lectus, pellentesque eget finibus vitae,
+        laoreet nec
+        magna. Sed placerat turpis vitae molestie scelerisque. Fusce cursus arcu a ipsum iaculis, eu dictum
+        ipsum
+        malesuada. Ut sollicitudin luctus sem a sagittis. Cras in leo sed leo placerat euismod.
+        <br><br>
+        Vestibulum id nisi viverra, mattis diam venenatis, vulputate lectus. Nunc eleifend sem bibendum,
+        ullamcorper
+        neque vulputate, cursus dolor. Pellentesque a turpis aliquam, pharetra purus a, dictum mi.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pretium in lacus
+        ullamcorper interdum. Etiam malesuada, erat vitae cursus interdum, lacus urna tempus nisl, ac rutrum
+        lacus ipsum
+        sed velit. Quisque ac placerat lectus, eget pharetra mi. Nunc sit amet urna consectetur, fermentum nibh
+        in,
+        faucibus lacus. Ut facilisis euismod neque. Curabitur felis lectus, pellentesque eget finibus vitae,
+        laoreet nec
+        magna. Sed placerat turpis vitae molestie scelerisque. Fusce cursus arcu a ipsum iaculis, eu dictum
+        ipsum
+        malesuada. Ut sollicitudin luctus sem a sagittis. Cras in leo sed leo placerat euismod.</p>
+    </div>
+
+    <h1 id="title-3">Details</h1>
+    <div class="content-block" id="block-2">
+      <p id="p-2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pretium in lacus
+        ullamcorper interdum. Etiam malesuada, erat vitae cursus interdum, lacus urna tempus nisl, ac rutrum
+        lacus ipsum
+        sed velit. Quisque ac placerat lectus, eget pharetra mi. Nunc sit amet urna consectetur, fermentum nibh
+        in,
+        faucibus lacus. Ut facilisis euismod neque. Curabitur felis lectus, pellentesque eget finibus vitae,
+        laoreet nec
+        magna. Sed placerat turpis vitae molestie scelerisque. Fusce cursus arcu a ipsum iaculis, eu dictum
+        ipsum
+        malesuada. Ut sollicitudin luctus sem a sagittis. Cras in leo sed leo placerat euismod.
+        <br><br>
+        Vestibulum id nisi viverra, mattis diam venenatis, vulputate lectus. Nunc eleifend sem bibendum,
+        ullamcorper
+        neque vulputate, cursus dolor. Pellentesque a turpis aliquam, pharetra purus a, dictum mi.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pretium in lacus
+        ullamcorper interdum. Etiam malesuada, erat vitae cursus interdum, lacus urna tempus nisl, ac rutrum
+        lacus ipsum
+        sed velit. Quisque ac placerat lectus, eget pharetra mi. Nunc sit amet urna consectetur, fermentum nibh
+        in,
+        faucibus lacus. Ut facilisis euismod neque. Curabitur felis lectus, pellentesque eget finibus vitae,
+        laoreet nec
+        magna. Sed placerat turpis vitae molestie scelerisque. Fusce cursus arcu a ipsum iaculis, eu dictum
+        ipsum
+        malesuada. Ut sollicitudin luctus sem a sagittis. Cras in leo sed leo placerat euismod.</p>
+    </div>
+  </div>
+
+  <h1 id="title-4">Foto's</h1>
+  <div class="image-row">
+    <img (click)="openLightbox('../../assets/2.JPG')" src="../../assets/2.JPG">
+    <img (click)="openLightbox('../../assets/2.JPG')" src="../../assets/2.JPG">
+    <img (click)="openLightbox('../../assets/2.JPG')" src="../../assets/2.JPG">
+    <img (click)="openLightbox('../../assets/2.JPG')" src="../../assets/2.JPG">
+    <img (click)="openLightbox('../../assets/2.JPG')" src="../../assets/2.JPG">
+  </div>
+  <div class="image-row spacing-2">
+    <img (click)="openLightbox('../../assets/2.JPG')" src="../../assets/2.JPG">
+    <img (click)="openLightbox('../../assets/2.JPG')" src="../../assets/2.JPG">
+    <img (click)="openLightbox('../../assets/2.JPG')" src="../../assets/2.JPG">
+    <img (click)="openLightbox('../../assets/2.JPG')" src="../../assets/2.JPG">
+    <img (click)="openLightbox('../../assets/2.JPG')" src="../../assets/2.JPG">
+  </div>
+</div>
