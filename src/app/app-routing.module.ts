@@ -5,6 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { AgendaComponent } from './agenda/agenda.component';
 import { SteunComponent } from './steun/steun.component';
 import { ContactComponent } from './contact/contact.component';
+import { NieuwsComponent } from './nieuws/nieuws.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -12,6 +13,8 @@ const routes: Routes = [
   { path: 'agenda', component: AgendaComponent },
   { path: 'steun', component: SteunComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'nieuws', component: NieuwsComponent },
+
 
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: '**', redirectTo: '/home', pathMatch: 'full' },

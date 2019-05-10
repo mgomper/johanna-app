@@ -10,6 +10,7 @@ import { SteunComponent } from './steun/steun.component';
 import { ContactComponent } from './contact/contact.component';
 import { HeaderComponent } from './header/header.component';
 import { NguCarouselModule } from '@ngu/carousel';
+import { NieuwsComponent } from './nieuws/nieuws.component';
 
 
 
@@ -24,7 +25,8 @@ declare var $: any;
     AgendaComponent,
     SteunComponent,
     ContactComponent,
-    HeaderComponent
+    HeaderComponent,
+    NieuwsComponent
   ],
   imports: [
     NguCarouselModule,

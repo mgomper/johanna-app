@@ -26,8 +26,8 @@
 @media only screen and (max-width: 934px) {
 
     .start{
-        min-height: 77vh;
-        max-height: 77vh;
+        min-height: 80vh;
+        max-height: 80vh;
         min-width: 100vw !important;
         background-image: url("../../assets/2.JPG");
         background-position: center; /* Center the image */
@@ -90,8 +90,8 @@
 
 @media only screen and (min-width: 935px) {
     .start{
-        min-height: 76.5vh;
-        max-height: 76.5vh;
+        min-height: 81vh;
+        max-height: 81vh;
         min-width: 100% !important;
         max-width: 100% !important;
         background-image: url("../../assets/2.JPG");
@@ -114,8 +114,9 @@
 
     img{
         float:right;
-        width: 40%;
-        max-width: 500px;
+        width: 35%;
+        margin-top: 5px; 
+        max-width: 450px;
     }
 
     p{
@@ -142,5 +143,10 @@
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%)
+    }
+
+    #title-1 {
+        margin-top: 50px;
+
     }
 }

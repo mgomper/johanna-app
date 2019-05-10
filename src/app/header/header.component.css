@@ -1,130 +1,157 @@
 /* PHONE */
+
 @media only screen and (max-width: 751px) {
-    .container{
+    .container {
         margin-left: 8vw;
         margin-right: 8vw;
     }
 }
 
 /* TABLET */
-@media only screen and (max-width: 1100px) and (min-width: 752px){
-    .container{
-        margin-left: 9vw;
-        margin-right: 9vw;
+
+@media only screen and (max-width: 1100px) and (min-width: 752px) {
+    .container {
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+    p {
+        margin-right: 10px !important;
     }
 }
 
 /* DESKTOP */
-@media only screen and (min-width: 1101px) {
-    .container{
+
+@media only screen and (max-width: 1400px) and (min-width: 1101px) {
+    .container {
+        margin-left: 6vw;
+        margin-right: 6vw;
+    }
+}
+
+@media only screen and (min-width: 1401px) {
+    .container {
         margin-left: 15vw;
         margin-right: 15vw;
     }
 }
 
-
 @media only screen and (min-width: 935px) {
-
-.header{
-    margin-top: 25px;
-    margin-bottom: 25px;
-    display: table;
-    width: 100%;
-    height: fit-content;
-}
-
-.mobileMenu{
-    display: none;
-}
-
-.left{
-    float: left;
-    display: table-cell;
-}
-
-p, i, .vertical-divider{
-    float: right;
-    display: table-cell;
-}
-
-.active {
-    padding-bottom: 5px;
-    border-bottom: 1px solid black;
-}
-
-h1{
-    font-size: 46px;
-    margin: 0;
-    padding: 0;
-    outline: none;
-    outline-style:none;
-    box-shadow:none;
-    border-color:transparent;
-}
-
-h1:hover{
-    cursor: pointer;
-}
-
-p{
-    margin-right: 24px;
-    margin-top: 15px;
-    outline: none;
-    outline-style:none;
-    box-shadow:none;
-    border-color:transparent;
-}
-
-i{
-    font-size: 1.7rem;
-    vertical-align: middle;
-    margin-right: 1.5%;
-    margin-top: 15px;
-}
-
-.vertical-divider{
-    width: 1px;
-    background-color: black;
-    height: 30px;
-    margin-top: 14px;
-    margin-left: 2%;
-    margin-right: 2%;
-}
-
-p:hover, i:hover{
-    cursor: pointer;
-    color: #8a8a8a;
+    .router-links {
+        margin-top: 46px;
     }
-
-    #sidenav{
+    .header {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        display: table;
+        width: 100%;
+        height: fit-content;
+    }
+    #header-logo {
+        width: 100%;
+    }
+    .mobileMenu {
+        display: none;
+    }
+    .left {
+        width: 30%;
+        float: left;
+        display: table-cell;
+    }
+    p, i, .vertical-divider {
+        float: right;
+        display: table-cell;
+    }
+    .active {
+        padding-bottom: 5px;
+        border-bottom: 1px solid black;
+    }
+    h1 {
+        font-size: 46px;
+        margin: 0;
+        padding: 0;
+        outline: none;
+        outline-style: none;
+        box-shadow: none;
+        border-color: transparent;
+    }
+    img {
+        outline: none;
+        cursor: pointer;
+    }
+    h1:hover {
+        cursor: pointer;
+    }
+    p {
+        margin-right: 24px;
+        margin-top: 15px;
+        outline: none;
+        outline-style: none;
+        box-shadow: none;
+        border-color: transparent;
+    }
+    i {
+        font-size: 1.7rem;
+        vertical-align: middle;
+        margin-right: 1.5%;
+        margin-top: 15px;
+    }
+    .vertical-divider {
+        width: 1px;
+        background-color: black;
+        height: 30px;
+        margin-top: 14px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    p:hover, i:hover {
+        cursor: pointer;
+        color: #8a8a8a;
+    }
+    #sidenav {
+        display: none;
+    }
+    #header-logo-mobile {
         display: none;
     }
 }
 
 @media only screen and (max-width: 934px) {
-    .header{
-        margin-top: 20px;
-        margin-bottom: 20px;
+    .mobile-links {
+        margin-top: 35px;
+        text-align: center;
+        margin-left: 49%;
+        transform: translateX(-50%);
+        display: block;
+        width: 100%;
+    }
+    .mobile-links i {
+        font-size: 2.4em;
+        color: white !important;
+        z-index: 101;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .header {
+        margin-top: 15px;
+        margin-bottom: 15px;
         display: table;
         width: 100%;
         height: fit-content;
     }
-
-    .menuItems{
+    .menuItems {
         position: relative;
-        top: 45%;
-        transform: translateY(-45%);
+        top: 40%;
+        transform: translateY(-40%);
+        opacity: 0;
     }
-
-    .slicer-menu{
+    .slicer-menu {
         width: 40vw;
         margin-left: auto;
         margin-right: auto;
         border-bottom: 1px solid;
         border-color: rgba(204, 204, 204, 0.9);
     }
-
-    .menuItems a{
+    .xy a {
         text-align: center;
         display: block;
         color: white;
@@ -132,44 +159,55 @@ p:hover, i:hover{
         margin-top: 15px;
         font-size: 24px;
         text-decoration-line: none;
-      }
-    
-    h1{
+    }
+    h1 {
         font-size: 30px;
         margin: 0;
         padding: 0;
         outline: none;
-        outline-style:none;
-        box-shadow:none;
-        border-color:transparent;
+        outline-style: none;
+        box-shadow: none;
+        border-color: transparent;
         float: left;
     }
-
-    .right{
+    #header-logo {
         display: none;
     }
-
-    i{
+    #header-logo-mobile {
+        width: 18%;
+        float: left;
+    }
+    .right {
+        display: none;
+    }
+    #bars {
         position: fixed;
         font-size: 2rem;
         float: right;
         display: table-cell;
-        margin-top: 6px;
-        right: 8%;
+        margin-top: 12px;
+        right: 9%;
         z-index: 101;
     }
-
     #sidenav {
-        height: 100vh; /* 100% Full-height */
-        width: 0; /* 0 width - change this with JavaScript */
-        position: fixed; /* Stay in place */
-        z-index: 100; /* Stay on top */
-        top: 0; /* Stay at the top */
+        height: 100vh;
+        /* 100% Full-height */
+        width: 0;
+        /* 0 width - change this with JavaScript */
+        position: fixed;
+        /* Stay in place */
+        z-index: 100;
+        /* Stay on top */
+        top: 0;
+        /* Stay at the top */
         right: 0;
-        background-color: rgba(19, 19, 19, 0.925); /* Black*/
-        overflow-x: hidden; /* Disable horizontal scroll */
-        padding-top: 0; /* Place content 60px from the top */
-        transition: 0.35s; /* 0.5 second transition effect to slide in the sidenav */
-      }
-
+        background-color: rgba(19, 19, 19, 0.925);
+        /* Black*/
+        overflow-x: hidden;
+        /* Disable horizontal scroll */
+        padding-top: 0;
+        /* Place content 60px from the top */
+        transition: 0.35s;
+        /* 0.5 second transition effect to slide in the sidenav */
+    }
 }

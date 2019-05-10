@@ -12,6 +12,9 @@ export class HeaderComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit() {
+    // if ($(document).height() <= $(window).height() ) {
+    //   $(".router-links").css("margin-right", "100px");
+    //  }
   }
 
   switchMobileMenu() {
@@ -19,14 +22,20 @@ export class HeaderComponent implements OnInit {
     if (this.active) {
       document.getElementById("sidenav").style.width = "100%";
       document.getElementById("bars").style.color = "white";
+      setTimeout(() => {
+        $(".menuItems").css("opacity", "1");
+      }, 220);
     } else {
       document.getElementById("sidenav").style.width = "0";
-      document.getElementById("bars").style.color = "black";   
+      document.getElementById("bars").style.color = "black";
+      $(".menuItems").css("opacity", "0");
     }
-  }
 
+
+  }
+ 
   reload(){
-    window.location.href = "http://localhost:4200/agenda"
+    window.location.href = "https://molenjohannahuijbergen.nl/agenda"
   }
 
 }

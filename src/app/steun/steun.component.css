@@ -4,14 +4,7 @@
     .container, .a-container {
         margin-left: 8vw;
         margin-right: 8vw;
-        padding-bottom: 5%;
-    }
-
-    .sponsor {
-        width: 86%;
-        display: block;
-        position: absolute;
-        bottom: 0;
+        padding-bottom: 8%;
     }
 }
 
@@ -21,15 +14,15 @@
     .container, .a-container {
         margin-left: 9vw;
         margin-right: 9vw;
-        padding-bottom: 29%;
+        padding-bottom: 8%;
     }
 
-    .sponsor {
-        width: 83%;
-        display: block;
+    #footer {
         position: absolute;
         bottom: 0;
-    }
+        width: 82%;
+        margin-bottom: 20px;
+      }
 }
 
 /* DESKTOP */
@@ -38,15 +31,15 @@
     .container, .a-container {
         margin-left: 15vw;
         margin-right: 15vw;
-        padding-bottom: 23%;
+        padding-bottom: 5%;
     }
 
-    .sponsor {
-        width: 74%;
-        display: block;
+    #footer {
         position: absolute;
         bottom: 0;
-    }
+        width: 72%;
+        margin-bottom: 20px;
+      }
 }
 
 @media only screen and (max-width: 934px) {
@@ -57,10 +50,17 @@
     }
     p {
         width: 100%;
+        margin-top: 40px;
     }
     img {
-        width: 100%;
+        width: 90%;
         margin-top: 15px;
+        max-width: 400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        /* margin-left: 50%;
+        transform: translateX(-50%); */
     }
     i {
         font-size: 8rem;
@@ -69,46 +69,48 @@
         width: 100%;
         text-align: center;
     }
+
+    p i {
+        font-size: 0.95em;
+    }
+
+    #image {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: -25px;
+    }
 }
 
 @media only screen and (min-width: 935px) {
     #title-1 {
         padding: 0;
         margin-bottom: 17px;
-        margin-top: 120px;
+        margin-top: 50px;
     }
     p {
+        margin-top: 25px;
         width: 60%;
         float: left;
     }
-    img {
+
+    p i {
+        font-size: 0.95em;
+    }
+    #image {
         width: 35%;
         float: right;
-        margin-top: 15px;
+        margin-top: 30px;
     }
 
-      #footer {
-        position: absolute;
-        bottom: 0;
-        width: 72%;
-        height: 230px;
-        background-color: white;
-      }
+    .icons img {
+        width: 25%;
+        margin-left: 50%;
+        margin-top: 25px;
+        transform: translateX(-50%);
+    }
 
       #footer h1{
           font-size: 26px;
           text-align: center;
-      }
-
-      i {
-          font-size: 7rem;
-          margin-top: 15px;
-          margin-left: 30px;
-          margin-right: 30px;
-      }
-
-      .icons{
-          width: fit-content;
-          margin: auto;
       }
 }

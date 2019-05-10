@@ -30,8 +30,8 @@
 
 @media only screen and (max-width: 934px) {
     .start {
-        min-height: 80vh;
-        max-height: 80vh;
+        min-height: 77vh;
+        max-height: 77vh;
         min-width: 100vw !important;
         background-image: url("../../assets/1.JPG");
         background-position: center;
@@ -139,8 +139,8 @@
         max-height: 65vh;
     }
     .start {
-        min-height: 81vh;
-        max-height: 81vh;
+        min-height: 76.5vh;
+        max-height: 76.5vh;
         min-width: 100% !important;
         max-width: 100% !important;
         background-image: url("../../assets/1.JPG");
