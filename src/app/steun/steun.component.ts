@@ -9,22 +9,18 @@ import { EventManager } from '@angular/platform-browser';
 export class SteunComponent implements OnInit {
 
   constructor(private eventManager: EventManager) {
-    this.eventManager.addGlobalEventListener('window', 'resize', this.OnResize.bind(this));
    }
 
-   private OnResize(event: any) {
-    if ($(document).height() < 900) {
+  
+
+  ngOnInit() {
+    if (true) {
       $("#footer").css("position", "relative");
       $("#footer").css("display", "block");
       $("#footer").css("width", "100%");
-      $("#footer").css("margin-top", "35px");
-      $("#footer").css("margin-bottom", "-10px");
+      $("#footer").css("margin-top", "60px");
+      $("#footer").css("margin-bottom", "-50px");
     }
-  }
-
-  ngOnInit() {
-
-
   }
 
 }
